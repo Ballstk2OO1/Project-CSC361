@@ -9,4 +9,4 @@ app.use("/api", require("./middleware/api"));
 
 app.listen(8080,() => {
     console.log("server running port 8080")
-})
+});
