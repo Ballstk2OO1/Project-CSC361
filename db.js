@@ -5,7 +5,7 @@ mongoose
     .then(() => console.log("DB Connected!"));
 
 mongoose.connection.on("connected", () => {
-    console.log('Mongoose default connection open');
+    console.log("Mongoose default connection open");
 });
 
 mongoose.connection.on("error", (err) => {
