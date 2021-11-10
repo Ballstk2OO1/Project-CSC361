@@ -6,6 +6,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.use("/api", require("./middleware/api"));
+app.use("/posts", require("./routes/posts"));
 
 app.listen(8080,() => {
     console.log("server running port 8080")

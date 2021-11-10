@@ -1,12 +1,8 @@
 const router = require("express").Router();
+const verify = require("./verifyToken");
 
-router.get("/", (req, res) => {
-    res.json({
-        posts: {
-            title: "first post",
-            description: "random data you shouldn't"
-        }
-    })
+router.get("/", verify, (req, res) => {
+    res.send(req.user);
 });
 
 module.exports = router;
