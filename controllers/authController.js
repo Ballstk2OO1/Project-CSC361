@@ -1,4 +1,5 @@
-const bcrypt = require('bcryptjs');
+const bcrypt = require("bcryptjs");
+const jwt = require("jsonwebtoken");
 const { Router } = require("express");
 const User = require("../models/user_schema");
 const { registerValidation, loginValidation } = require("../validation")
@@ -15,7 +16,7 @@ exports.register = async (req, res) => {
     // Checking if user is already in database
     const emailExist = await User.findOne({ email: req.body.email });
     if (emailExist) {
-        return res.status(400).send("Email already exist.");
+        return res.status(400).send("Email already exist");
     }
 
     // Hash password
@@ -49,14 +50,18 @@ exports.login = async (req, res) => {
     // Checking if the email exist
     const user = await User.findOne({ email: req.body.email });
     if (!user) {
-        return res.status(400).send("Email doesn't exist.");
+        return res.status(400).send("Email doesn't exist");
     }
 
     // Password is correct
     const validPass = await bcrypt.compare(req.body.password, user.password);
     if (!validPass) {
-        return res.status(400).send("Email and Password doesn't match.");
+        return res.status(400).send("Email and Password doesn't match");
     }
+
+    // Create and assign a token
+    const token = jwt.sign({ _id: user._id }, process.env.TOKEN_SECRET);
+    res.header("auth-token", token).send(token);
 
     res.send("Login Success")
 };
