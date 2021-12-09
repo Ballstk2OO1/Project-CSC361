@@ -6,7 +6,7 @@ const GPU = require("../models/gpu_schema")
 const STORAGE = require("../models/storage_schema")
 const MEMORY = require("../models/memory_schema")
 const COOLER = require("../models/cooler_schema")
-const PSU = require("../models/psu_schema")
+const PSU = require("../models/powersupply_schema")
 const CASE = require("../models/case_schema")
 
 exports.getAllData = async (req, res) => {

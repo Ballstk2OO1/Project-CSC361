@@ -18,4 +18,4 @@ const memory_schema = mongoose.Schema ({
     }
 });
 
-module.exports = mongoose.model("MEMORY", memory_schema)
+module.exports = mongoose.model("memory", memory_schema)

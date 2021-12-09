@@ -19,4 +19,4 @@ const cooler_schema = mongoose.Schema ({
     }
 });
 
-module.exports = mongoose.model("COOLER", cooler_schema)
+module.exports = mongoose.model("cooler", cooler_schema)

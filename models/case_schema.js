@@ -26,4 +26,4 @@ const case_schema = mongoose.Schema ({
     }
 });
 
-module.exports = mongoose.model("CASE", case_schema)
+module.exports = mongoose.model("case", case_schema)

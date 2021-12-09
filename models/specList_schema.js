@@ -15,4 +15,4 @@ const specList_schema = mongoose.Schema ({
     }
 });
 
-module.exports = mongoose.model("SPECLIST", specList_schema)
+module.exports = mongoose.model("speclist", specList_schema)

@@ -27,4 +27,4 @@ const psu_schema = mongoose.Schema ({
     }
 });
 
-module.exports = mongoose.model("PSU", psu_schema)
+module.exports = mongoose.model("powersupply", psu_schema)

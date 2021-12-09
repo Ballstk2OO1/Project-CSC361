@@ -23,4 +23,4 @@ const cpu_schema = mongoose.Schema ({
     }
 });
 
-module.exports = mongoose.model("CPU", cpu_schema)
+module.exports = mongoose.model("cpu", cpu_schema)
