@@ -4,8 +4,8 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 mongoose
-    // .connect("mongodb://127.0.0.1:27017/project361")
-    .connect(process.env.DB_CONNECT)
+    .connect("mongodb://127.0.0.1:27017/project361")
+    // .connect(process.env.DB_CONNECT)
     .then(() => console.log("DB Connected!"));
 
 mongoose.connection.on("connected", () => {

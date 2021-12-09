@@ -1,0 +1,68 @@
+[
+    {
+        "title": "Intel core i5-12600K",
+        "image": "",
+        "category": "CPU",
+        "price": "",
+        "brand": "Intel",
+        "series": "core i5",
+        "model": "core i5-12600K",
+        "specification": {
+            "specification": {
+                "socket": "LGA1700",
+                "core": "10",
+                "thread": "16",
+                "base_clock": "3.70 GHz",
+                "boost_clock": "4.90 GHz",
+                "L2cache": "9.5 MB",
+                "L3cache": "20 MB",
+                "technology": "10nm",
+                "TDP": "125w"
+            }
+        }
+    },
+    {
+        "title": "Intel core i5-11600K",
+        "image": "",
+        "category": "CPU",
+        "price": "",
+        "brand": "Intel",
+        "series": "core i5",
+        "model": "core i5-11600K",
+        "specification": {
+            "specification": {
+                "socket": "LGA1200",
+                "core": "6",
+                "thread": "12",
+                "base_clock": "3.90 GHz",
+                "boost_clock": "4.90 GHz",
+                "L2cache": "1.5 MB",
+                "L3cache": "12 MB",
+                "technology": "14nm",
+                "TDP": "95w"
+            }
+        }
+    },
+    {
+        "title": "Intel core i5-10600K",
+        "image": "",
+        "category": "CPU",
+        "price": "",
+        "brand": "Intel",
+        "series": "core i5",
+        "model": "core i5-10600K",
+        "specification": {
+            "specification": {
+                "socket": "LGA1200",
+                "core": "6",
+                "thread": "12",
+                "base_clock": "4.10 GHz",
+                "boost_clock": "4.80 GHz",
+                "L2cache": "1.5 MB",
+                "L3cache": "12 MB",
+                "technology": "14nm++",
+                "TDP": "125w"
+            }
+        }
+    }
+]

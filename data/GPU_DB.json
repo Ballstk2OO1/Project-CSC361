@@ -1,0 +1,37 @@
+{
+    "Title": "",
+    "Image": "",
+    "Price": "",
+    "Brand": "",
+    "Series": "",
+    "Model": "",
+    "Specification": {
+        "Chipset": {
+            "GPU Chipset": "",
+            "GPU Name": "",
+            "GPU Clock": "",
+            "Shader Unit": "",
+            "Technology": ""
+        },
+        "Memory": {
+            "Memory Clock": "",
+            "Memory Size": "",
+            "Memory Interface": "",
+            "Memory Type": ""
+        },
+        "Graphic Features": {
+            "Bus Interface": "",
+            "Multi-GPU Supports": "",
+            "DirectX": "",
+            "Shader Model": ""
+        },
+        "Port Connector": {
+            "HDMI Ports": "",
+            "Display Port": ""
+        },
+        "Other Detail": {
+            "Power Connector": "",
+            "Power Requirements": ""
+        }
+    }
+}

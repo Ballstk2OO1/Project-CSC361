@@ -1,0 +1,25 @@
+{
+    "Title": "",
+    "Image": "",
+    "Price": "",
+    "Brand": "",
+    "Series": "",
+    "Model": "",
+    "Specification": {
+        "Specification": {
+            "Form Factor": "",
+            "Maximum Power": "",
+            "Modular": "",
+            "Fans": "",
+            "Certifacates": "",
+            "Input Voltage": "",
+            "Input Frequency": "",
+            "Dimensions": ""
+        },
+        "Port Connector": {
+            "Main Power": "",
+            "PCIe Connector": "",
+            "SATA Connector": ""
+        }
+    }
+}

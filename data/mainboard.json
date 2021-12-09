@@ -1,0 +1,182 @@
+[
+    {
+        "Title": "Asus ROG Strix Z690-I gaming WIFI",
+        "Image": "",
+        "Price": "",
+        "Brand": "Asus",
+        "Chipset": "Intel Z690",
+        "Model": "ROG Strix Z690-I gaming WIFI",
+        "Support": "Intel",
+        "Specification": {
+            "Support Detail": {
+                "CPU Socket": "LGA1700",
+                "Memory slots": "4 slots",
+                "Memory max": "128 GB",
+                "Memory support": "Dual channel DDR4 2133 to 5333 MHz(OC)"
+            },
+            "Onboard Chipset": {
+                "Onboard Graphics": "Integrated Graphics Processor",
+                "Audio Chipset": "Realtek ALC898 Audio Codec",
+                "Audio Channels": "7.1 Channels HD Audio",
+                "LAN Chipset": "Intel I219V",
+                "LAN Speed": "10/100/1000 Mbps"
+            },
+            "Expansion Slots": {
+                "PCI Slots": "1 slot PCIe x16",
+                "Multi-GPU Supports": "N/A"
+            },
+            "Storage": {
+                "SATA Slots": "4x SATA 6Gb/s",
+                "M.2 Slots": "2x M.2 connector",
+                "M.2 Supports type": "22110, 2280, 2260, 2242"
+            },
+            "Back Panel Ports": {
+                "USB Ports": "2x USB 2.0, 5x USB 3.2 Type A, 2x USB 3.2 Type C",
+                "HDMI Ports": "1x HDMI",
+                "DisplayPort": "1x Display port",
+                "Audio Ports": "3x Audio ports",
+                "PS/2 Ports": "N/A"
+            },
+            "Other Detail": {
+                "Form Factor": "ITX",
+                "Power Pin": "24+8 pin",
+                "Dimension": "17x17 cm"
+            }
+        }
+    },
+    {
+        "Title": "Asus ROG Strix Z690-E gaming WIFI",
+        "Image": "",
+        "Price": "",
+        "Brand": "Asus",
+        "Chipset": "Intel Z690",
+        "Model": "ROG Strix Z690-E gaming WIFI",
+        "Support": "Intel",
+        "Specification": {
+            "Support Detail": {
+                "CPU Socket": "LGA1700",
+                "Memory slots": "4 slots",
+                "Memory max": "128 GB",
+                "Memory support": "Dual channel DDR4 2133 to 5333 MHz(OC)"
+            },
+            "Onboard Chipset": {
+                "Onboard Graphics": "Integrated Graphics Processor",
+                "Audio Chipset": "Realtek ALC898 Audio Codec",
+                "Audio Channels": "7.1 Channels HD Audio",
+                "LAN Chipset": "Intel I219V",
+                "LAN Speed": "10/100/1000 Mbps"
+            },
+            "Expansion Slots": {
+                "PCI Slots": "3 slot PCIe x16, 1 slot PCIe x1",
+                "Multi-GPU Supports": "N/A"
+            },
+            "Storage": {
+                "SATA Slots": "6x SATA 6Gb/s",
+                "M.2 Slots": "3x M.2 connector",
+                "M.2 Supports type": "22110, 2280, 2260, 2242"
+            },
+            "Back Panel Ports": {
+                "USB Ports": "4x USB 2.0, 6x USB 3.2 Type A, 2x USB 3.2 Type C",
+                "HDMI Ports": "1x HDMI",
+                "DisplayPort": "1x Display port",
+                "Audio Ports": "5x Audio ports",
+                "PS/2 Ports": "N/A"
+            },
+            "Other Detail": {
+                "Form Factor": "ATX",
+                "Power Pin": "24+8 pin",
+                "Dimension": "30.5x24.4 cm"
+            }
+        }
+    },
+    {
+        "Title": "Asus ROG Strix Z590-I gaming WIFI",
+        "Image": "",
+        "Price": "",
+        "Brand": "Asus",
+        "Chipset": "Intel Z690",
+        "Model": "ROG Strix Z590-I gaming WIFI",
+        "Support": "Intel",
+        "Specification": {
+            "Support Detail": {
+                "CPU Socket": "LGA1200",
+                "Memory slots": "2 slots",
+                "Memory max": "64 GB",
+                "Memory support": "Dual channel DDR4 2133 to 5133 MHz(OC)"
+            },
+            "Onboard Chipset": {
+                "Onboard Graphics": "Integrated Graphics Processor",
+                "Audio Chipset": "Realtek ALC4080 codec",
+                "Audio Channels": "7.1 Channels HD Audio",
+                "LAN Chipset": "Intel I225-V",
+                "LAN Speed": "10/100/1000Mbps"
+            },
+            "Expansion Slots": {
+                "PCI Slots": "1 slot PCIe x16",
+                "Multi-GPU Supports": "N/A"
+            },
+            "Storage": {
+                "SATA Slots": "4x SATA 6Gb/s",
+                "M.2 Slots": "2x M.2 connector",
+                "M.2 Supports type": "22110, 2280, 2260, 2242"
+            },
+            "Back Panel Ports": {
+                "USB Ports": "4x USB 2.0, 2x USB 3.2 Type A, 2x USB 3.2 Type C",
+                "HDMI Ports": "1x HDMI",
+                "DisplayPort": "1x Display port",
+                "Audio Ports": "3x Audio ports",
+                "PS/2 Ports": "N/A"
+            },
+            "Other Detail": {
+                "Form Factor": "ITX",
+                "Power Pin": "24+8 pin",
+                "Dimension": "17x17 cm"
+            }
+        }
+    },
+    {
+        "Title": "Asus ROG Strix Z590-E gaming WIFI",
+        "Image": "",
+        "Price": "",
+        "Brand": "Asus",
+        "Chipset": "Intel Z690",
+        "Model": "ROG Strix Z590-E gaming WIFI",
+        "Support": "Intel",
+        "Specification": {
+            "Support Detail": {
+                "CPU Socket": "LGA1200",
+                "Memory slots": "4 slots",
+                "Memory max": "128 GB",
+                "Memory support": "Dual channel DDR4 2133 to 5133 MHz(OC)"
+            },
+            "Onboard Chipset": {
+                "Onboard Graphics": "Integrated Graphics Processor",
+                "Audio Chipset": "Realtek ALC4080 codec",
+                "Audio Channels": "7.1 Channels HD Audio",
+                "LAN Chipset": "Intel I225-V",
+                "LAN Speed": "10/100/1000Mbps"
+            },
+            "Expansion Slots": {
+                "PCI Slots": "3 slot PCIe x16",
+                "Multi-GPU Supports": "N/A"
+            },
+            "Storage": {
+                "SATA Slots": "6x SATA 6Gb/s",
+                "M.2 Slots": "4x M.2 connector",
+                "M.2 Supports type": "22110, 2280, 2260, 2242"
+            },
+            "Back Panel Ports": {
+                "USB Ports": "2x USB 2.0, 6x USB 3.2 Type A, 2x USB 3.2 Type C",
+                "HDMI Ports": "1x HDMI",
+                "DisplayPort": "1x Display port",
+                "Audio Ports": "5x Audio ports",
+                "PS/2 Ports": "N/A"
+            },
+            "Other Detail": {
+                "Form Factor": "ATX",
+                "Power Pin": "24+8 pin",
+                "Dimension": "30.5x24.4 cm"
+            }
+        }
+    }
+]

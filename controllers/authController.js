@@ -1,6 +1,6 @@
+const { Router } = require("express");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const { Router } = require("express");
 const User = require("../models/user_schema");
 const { registerValidation, loginValidation } = require("../validation")
 // const jwt = require("../jwt");
@@ -10,13 +10,13 @@ exports.register = async (req, res) => {
     // Validate infomation
     const { error } = registerValidation(req.body);
     if (error) {
-        return res.status(400).send(error.details[0].message);
+        return res.status(200).json({ result: "Fail", message: error.details[0].message});
     }
 
     // Checking if user is already in database
     const emailExist = await User.findOne({ email: req.body.email });
     if (emailExist) {
-        return res.status(400).send("Email already exist");
+        return res.status(200).json({ result: "Fail", message: "Email already exist" });
     }
 
     // Hash password
@@ -32,9 +32,9 @@ exports.register = async (req, res) => {
 
     try {
         const savedUser = await user.save();
-        res.send({ user: user._id });
+        res.json({ result: "OK", message: "success registeration" })
     } catch (err) {
-        res.status(400).send(err);
+        res.status(500).send(err);
     }
 
 };
@@ -43,25 +43,28 @@ exports.login = async (req, res) => {
 
     // Validate infomation
     const { error } = loginValidation(req.body);
+    
     if (error) {
-        return res.status(400).send(error.details[0].message);
+        return res.status(200).json({ result: "Fail", message: error.details[0].message})
     }
-
+    
     // Checking if the email exist
     const user = await User.findOne({ email: req.body.email });
     if (!user) {
-        return res.status(400).send("Email doesn't exist");
+        return res.status(200).json({ result: "Fail", message: "Email doesn't exist"})
     }
+    
 
     // Password is correct
     const validPass = await bcrypt.compare(req.body.password, user.password);
-    if (!validPass) {
-        return res.status(400).send("Email and Password doesn't match");
+    if (validPass) {
+        
+        // Create and assign a token
+        const token = jwt.sign({ _id: user._id }, process.env.TOKEN_SECRET);
+        res.status(200).header("authtoken", token).json({ result: "OK", message: "success sign in"});
+        
+    } else {
+        return res.status(200).json({ result: "Fail", message: "Email and Password doesn't match"});
     }
-
-    // Create and assign a token
-    const token = jwt.sign({ _id: user._id }, process.env.TOKEN_SECRET);
-    res.header("auth-token", token).send(token);
-
-    res.send("Login Success")
+    
 };
