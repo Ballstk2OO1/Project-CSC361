@@ -8,11 +8,13 @@
         "series": "H",
         "model": "H100i RGB Elite Capellix",
         "specification": {
-            "form_factor": "Liquid Cooler",
-            "socket_support": "Intel: LGA 2066/2011-v3/2011/1156/1155/1151/1150 | AMD: TR4/AM4/AM3+/AM3/AM2+/AM2/FM2+/FM2/FM1",
-            "radiator_dimension": "120mm x 277mm x 27mm",
-            "radiator_material": "aluminum",
-            "fan_built_in": "120mm x 2"
+            "specification": {
+                "form_factor": "Liquid Cooler",
+                "socket_support": "Intel: LGA 2066/2011-v3/2011/1156/1155/1151/1150 | AMD: TR4/AM4/AM3+/AM3/AM2+/AM2/FM2+/FM2/FM1",
+                "radiator_dimension": "120mm x 277mm x 27mm",
+                "radiator_material": "aluminum",
+                "fan_built_in": "120mm x 2"
+            }
         }
     },
     {
@@ -24,11 +26,13 @@
         "series": "H",
         "model": "H115i RGB Elite Capellix",
         "specification": {
-            "form_factor": "Liquid Cooler",
-            "socket_support": "Intel: LGA 2066/2011-v3/2011/1156/1155/1151/1150 | AMD: TR4/AM4/AM3+/AM3/AM2+/AM2/FM2+/FM2/FM1",
-            "radiator_dimension": "137mm x 322mm x 27mm",
-            "radiator_material": "aluminum",
-            "fan_built_in": "140mm x 2"
+            "specification": {
+                "form_factor": "Liquid Cooler",
+                "socket_support": "Intel: LGA 2066/2011-v3/2011/1156/1155/1151/1150 | AMD: TR4/AM4/AM3+/AM3/AM2+/AM2/FM2+/FM2/FM1",
+                "radiator_dimension": "137mm x 322mm x 27mm",
+                "radiator_material": "aluminum",
+                "fan_built_in": "140mm x 2"
+            }
         }
     }
 ]

@@ -203,16 +203,20 @@ exports.storage = async (req, res) => {
 exports.cooler = async (req, res) => {
     const data = new COOLER({
         title: req.body.title,
-        username: req.body.username,
-        spec: {
-            CPU: req.body.spec.cpu,
-            GPU: req.body.spec.gpu,
-            MAINBOARD: req.body.spec.mainboard,
-            MEMORY: req.body.spec.memory,
-            STORAGE: req.body.spec.storage,
-            PSU: req.body.spec.psu,
-            COOLER: req.body.spec.cooler,
-            CASE: req.body.spec.case
+        image: req.body.image,
+        category: req.body.category,
+        price: req.body.price,
+        brand: req.body.brand,
+        series: req.body.series,
+        model: req.body.model,
+        specification: {
+            specification: {
+                form_factor: req.body.specification.specification.form_factor,
+                socket_support: req.body.specification.specification.socket_support,
+                radiator_dimension: req.body.specification.specification.radiator_dimension,
+                radiator_material: req.body.specification.specification.radiator_material,
+                fan_built_in: req.body.specification.specification.fan_built_in
+            }
         }
     });
 
