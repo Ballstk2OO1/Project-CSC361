@@ -1,0 +1,53 @@
+[
+    {
+        "title": "Corsair Vengeance RGB Pro DDR4 16GB (8GBx2) 3200",
+        "image": "",
+        "category": "Memory",
+        "price": "",
+        "brand": "Corsair",
+        "model": "Vengeance RGB Pro DDR4 16GB (8GBx2) 3200",
+        "specification": {
+            "specification": {
+                "memory_type": "DDR4",
+                "memory_size": "16GB (8GBx2)",
+                "memory_speed": "3200",
+                "CAS_latency": "16-18-18-36",
+                "voltage": "1.35v"
+            }
+        }
+    },
+    {
+        "title": "Corsair Vengeance RGB RS DDR4 16GB (8GBx2) 3200",
+        "image": "",
+        "category": "Memory",
+        "price": "",
+        "brand": "Corsair",
+        "model": "Vengeance RGB RS DDR4 16GB (8GBx2) 3200",
+        "specification": {
+            "specification": {
+                "memory_type": "DDR4",
+                "memory_size": "16GB (8GBx2)",
+                "memory_speed": "3200",
+                "CAS_latency": "16-20-20-38",
+                "voltage": "1.35v"
+            }
+        }
+    },
+    {
+        "title": "Corsair Vengeance RGB RT DDR4 16GB (8GBx2) 3200",
+        "image": "",
+        "category": "Memory",
+        "price": "",
+        "brand": "Corsair",
+        "model": "Vengeance RGB RT DDR4 16GB (8GBx2) 3200 White",
+        "specification": {
+            "specification": {
+                "memory_type": "DDR4",
+                "memory_size": "16GB (8GBx2)",
+                "memory_speed": "3200",
+                "CAS_latency": "16-20-20-38",
+                "voltage": "1.35v"
+            }
+        }
+    }
+]

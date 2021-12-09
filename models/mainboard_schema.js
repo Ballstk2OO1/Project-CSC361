@@ -30,7 +30,7 @@ const mainboard_schema = mongoose.Schema ({
         storage: {
             SATA_slot: String,
             M2_slot: String,
-            M2_supports_type: String
+            M2_support_type: String
         },
         backpanel_port: {
             USB_port: String,

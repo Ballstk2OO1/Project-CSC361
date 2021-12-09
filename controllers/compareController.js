@@ -26,7 +26,7 @@ exports.getAllData = async (req, res) => {
                 console.log(data)
             }
         })
-        
+
         const c_gpu = await GPU.find({}, (err, data) => {
             if (err) {
                 console.log(err)

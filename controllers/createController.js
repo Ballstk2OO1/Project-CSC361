@@ -19,7 +19,7 @@ exports.addSpecList = async (req, res) => {
 
     try {
         const savedSpec = await spec.save();
-        res.json({ result: "OK", message: "success" })
+        res.json({ result: "OK", message: "create spec success" })
     } catch (err) {
         res.status(500).send(err); 
     }

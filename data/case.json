@@ -1,0 +1,52 @@
+[
+    {
+        "title": "Corsair iCUE 4000X RGB",
+        "image": "",
+        "category": "Case",
+        "price": "",
+        "brand": "Corsair",
+        "model": "iCUE 4000X RGB",
+        "specification": {
+            "specification": {
+                "form_factor": "Mid Tower",
+                "mainboard_support": "Mini-ITX, Micro-ATX, ATX",
+                "material": "Steel, Plastic, Tempered Glass",
+                "color": "Black, White",
+                "weight": "8 kg",
+                "dimension": "230mm x 453mm x 460mm",
+                "IO_port": "1x USB 3.0, 1x USB 3.1 Type-C, 1 x Audio Header"
+            },
+            "cooling_support": {
+                "fan_support": "Front: 120mm x3/140mm x2, Top: 140mm x2, Rear: 120mm x1",
+                "radiator_support": "360 mm",
+                "max_CPU_cooler_height": "170 mm",
+                "max_VGA_lenght": "360 mm"
+            }
+        }
+    },
+    {
+        "title": "CORSAIR 4000D Tempered Glass",
+        "image": "",
+        "category": "Case",
+        "price": "",
+        "brand": "Corsair",
+        "model": "4000D Tempered Glass",
+        "specification": {
+            "specification": {
+                "form_factor": "Mid Tower",
+                "mainboard_support": "Mini-ITX, Micro-ATX, ATX, E-ATX",
+                "material": "Steel, Plastic, Tempered Glass",
+                "color": "Black, White",
+                "weight": "7.8 kg",
+                "dimension": "230mm x 453mm x 466mm",
+                "IO_port": "1x USB 3.0 Type A, 1x USB 3.1 Type-C, 1 x Audio Header"
+            },
+            "cooling_support": {
+                "fan_support": "Front: 120mm x3/140mm x2, Top: 120mm/140mm x2, Rear: 120mm x1",
+                "radiator_support": "360 mm",
+                "max_CPU_cooler_height": "170 mm",
+                "max_VGA_lenght": "360 mm"
+            }
+        }
+    }
+]

@@ -24,7 +24,7 @@ const gpu_schema = mongoose.Schema ({
         },
         graphic_feature: {
             bus_interface: String,
-            multi_GPU_supports: String,
+            multi_GPU_support: String,
             directx: String,
             shader_model: String
         },

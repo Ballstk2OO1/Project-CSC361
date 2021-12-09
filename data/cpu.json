@@ -16,7 +16,7 @@
                 "boost_clock": "4.90 GHz",
                 "L2cache": "9.5 MB",
                 "L3cache": "20 MB",
-                "technology": "10nm",
+                "technology": "10 nm",
                 "TDP": "125w"
             }
         }
@@ -38,7 +38,7 @@
                 "boost_clock": "4.90 GHz",
                 "L2cache": "1.5 MB",
                 "L3cache": "12 MB",
-                "technology": "14nm",
+                "technology": "14 nm",
                 "TDP": "95w"
             }
         }
@@ -60,7 +60,7 @@
                 "boost_clock": "4.80 GHz",
                 "L2cache": "1.5 MB",
                 "L3cache": "12 MB",
-                "technology": "14nm++",
+                "technology": "14 nm++",
                 "TDP": "125w"
             }
         }

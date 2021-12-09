@@ -1,16 +1,36 @@
-{
-    "Title": "",
-    "Image": "",
-    "Price": "",
-    "Brand": "",
-    "Model": "",
-    "Specifacation": {
-        "Specifacation": {
-            "Capacity": "",
-            "Interface": "",
-            "Read Speed": "",
-            "Write Speed": "",
-            "Technology": ""
+[
+    {
+        "title": "Western Digital Black SN750 1TB NVMe",
+        "image": "",
+        "category": "Storage",
+        "price": "",
+        "brand": "Western Digital",
+        "model": "Black SN750 1TB NVMe",
+        "specifacation": {
+            "specifacation": {
+                "capacity": "1 TB",
+                "interface": "M.2",
+                "read_speed": "3470 MB/s",
+                "write_speed": "3000 MB/s",
+                "technology": "SanDisk 64-layer 3D NAND TLC"
+            }
+        }
+    },
+    {
+        "title": "Western Digital Blue 1TB 3D NAND",
+        "image": "",
+        "category": "Storage",
+        "price": "",
+        "brand": "Western Digital",
+        "model": "Blue 1TB 3D NAND",
+        "specifacation": {
+            "specifacation": {
+                "capacity": "1 TB",
+                "interface": "SATA III",
+                "read_speed": "560 MB/s",
+                "write_speed": "530 MB/s",
+                "technology": "Marvell 88SS1074"
+            }
         }
     }
-}
+]

@@ -10,6 +10,7 @@ const PSU = require("../models/psu_schema")
 const CASE = require("../models/case_schema")
 
 exports.mainboard = async (req, res) => {
+    console.log(req.body)
     const data = new MAINBOARD({
         title: req.body.title,
         image: req.body.image,
@@ -33,21 +34,21 @@ exports.mainboard = async (req, res) => {
                 LAN_chipset: req.body.specification.onboard_chipset.LAN_chipset,
                 LAN_speed: req.body.specification.onboard_chipset.LAN_speed
             },
-            expansion_slots: {
-                PCI_slot: req.body.specification.expansion_slots.PCI_slot,
-                multi_GPU_support: req.body.specification.expansion_slots.multi_GPU_support
+            expansion_slot: {
+                PCI_slot: req.body.specification.expansion_slot.PCI_slot,
+                multi_GPU_support: req.body.specification.expansion_slot.multi_GPU_support
             },
             storage: {
                 SATA_slot: req.body.specification.storage.SATA_slot,
                 M2_slot: req.body.specification.storage.M2_slot,
-                M2_supports_type: req.body.specification.storage.M2_supports_type
+                M2_support_type: req.body.specification.storage.M2_support_type
             },
-            backpanel_port: {
-                USB_port: req.body.specification.backpanel_port.USB_port,
-                HDMI_port: req.body.specification.backpanel_port.HDMI_port,
-                display_port: req.body.specification.backpanel_port.display_port,
-                audio_port: req.body.specification.backpanel_port.audio_port,
-                PS2_port: req.body.specification.backpanel_port.PS2_port
+            back_panel_port: {
+                USB_port: req.body.specification.back_panel_port.USB_port,
+                HDMI_port: req.body.specification.back_panel_port.HDMI_port,
+                display_port: req.body.specification.back_panel_port.display_port,
+                audio_port: req.body.specification.back_panel_port.audio_port,
+                PS2_port: req.body.specification.back_panel_port.PS2_port
             },
             other_detail: {
                 form_factor: req.body.specification.other_detail.form_factor,
@@ -122,7 +123,7 @@ exports.gpu = async (req, res) => {
             },
             graphic_feature: {
                 bus_interface: req.body.specification.graphic_feature.bus_interface,
-                multi_GPU_supports: req.body.specification.graphic_feature.multi_GPU_supports,
+                multi_GPU_support: req.body.specification.graphic_feature.multi_GPU_support,
                 directx: req.body.specification.graphic_feature.directx,
                 shader_model: req.body.specification.graphic_feature.shader_model
             },
@@ -253,12 +254,12 @@ exports.psu = async (req, res) => {
 
 exports.case = async (req, res) => {
     const data = new CASE({
-        title: req.body,
-        image: req.body,
-        category: req.body,
-        price: req.body,
-        brand: req.body,
-        model: req.body,
+        title: req.body.title,
+        image: req.body.image,
+        category: req.body.category,
+        price: req.body.price,
+        brand: req.body.brand,
+        model: req.body.model,
         specification: {
             specification: {
                 form_factor: req.body.specification.specification.form_factor,

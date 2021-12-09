@@ -1,0 +1,54 @@
+[
+    {
+        "title": "Corsair CV650",
+        "image": "",
+        "category": "PowerSupply",
+        "price": "",
+        "brand": "Corsair",
+        "series": "CV",
+        "model": "CV650",
+        "specification": {
+            "specification": {
+                "form_factor": "ATX 12V V2.31",
+                "maximum_power": "650w",
+                "modular": "N/A",
+                "fans": "1x120mm fan",
+                "certifacates": "80+ Bronze",
+                "input_voltage": "100-240v",
+                "input_frequency": "47/63 Hz",
+                "dimensions": "150mm x 125mm x 86mm"
+            },
+            "port_connector": {
+                "main_power": "20+4 Pin",
+                "PCIe_connector": "2x 6+2 Pin",
+                "SATA_connector": "6"
+            }
+        }
+    },
+    {
+        "title": "Corsair RM650m gold",
+        "image": "",
+        "category": "PowerSupply",
+        "price": "",
+        "brand": "Corsair",
+        "series": "RM",
+        "model": "RM650 Gold",
+        "specification": {
+            "specification": {
+                "form_factor": "ATX12V v2.52/EPS 2.92",
+                "maximum_power": "650w",
+                "modular": "modular",
+                "fans": "1x135mm fan",
+                "certifacates": "80+ Gold",
+                "input_voltage": "100-240v",
+                "input_frequency": "47/63 Hz",
+                "dimensions": "150mm x 160mm x 86mm"
+            },
+            "port_connector": {
+                "main_power": "20+4 Pin",
+                "PCIe_connector": "4x 6+2 Pin",
+                "SATA_connector": "6"
+            }
+        }
+    }
+]
