@@ -1,15 +1,16 @@
 <template>
   <div id="build">
-    <h1>Build your own Computer</h1>
+    <h1>{{ products.data.mainboard[0].title }}</h1>
 
     <b-container class="card">
     <b-row>
       <b-col lg="6" aria-controls="overlay-background">
-        <b-form-group label="CPU" label-for="bg-variant" label-cols-sm="4" label-cols-lg="12">
-          <b-form-select id="bg-variant" v-model="CPU" :options="variants"></b-form-select>
+        <b-form-group label="Brand" label-for="bg-variant" label-cols-sm="4" label-cols-lg="12">
+          <b-form-select id="bg-variant" v-model="CPU" :options="Brand"></b-form-select>
         </b-form-group>
-        <b-form-group label="product" label-for="bg-variant" label-cols-sm="4" label-cols-lg="12">
-          <b-form-select id="bg-variant" v-model="CPU" :options="variants"></b-form-select>
+
+        <b-form-group label="Model" label-for="bg-variant" label-cols-sm="4" label-cols-lg="12">
+          <b-form-select id="bg-variant" v-model="CPU" :options="Model"></b-form-select>
         </b-form-group>
 
       </b-col>
@@ -137,20 +138,22 @@
 import axios from 'axios';
 export default {
   data() {
-    
       return {
-        products : []
-        
+        products: [],
+        Brand: [
+          "Intel",
+          "AMD"
+        ]
       }
   },
   mounted() {
-    axios.get('http://localhost/api/compare/getAlldata')
+    axios.get('http://localhost:9000/api/compare/getAllData')
     .then((res) => {
-      this.products = res.data.response
-      console.log(res.data.response)
+      this.products = res.data
+      console.log("test1", res.data)
     })
     .catch((err) => {
-      console.log(err)
+      console.log("test2", err)
     })
   },
 
@@ -182,7 +185,5 @@ export default {
 .card {
   padding-top: 0px;
 }
-
-
 
 </style>

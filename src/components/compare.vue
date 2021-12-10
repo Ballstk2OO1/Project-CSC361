@@ -46,7 +46,7 @@
 
 <script>
 
-import axios from 'axios';
+//import axios from 'axios';
 export default {
 
   data() {
@@ -57,10 +57,7 @@ export default {
   name: 'compareapp', 
 
  mounted() {
-        axios.get('http://localhost:9000/api/compare')
-        .then(function(res) {
-            console.log(res.data)
-        })
+        
 
     },
 }

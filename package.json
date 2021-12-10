@@ -25,7 +25,8 @@
     "vue-swal": "^1.0.0",
     "vue-sweetalert": "^0.1.18",
     "vue-sweetalert2": "^5.0.2",
-    "vuex": "^3.4.0"
+    "vuex": "^3.4.0",
+    "yarn": "^1.22.17"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
