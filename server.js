@@ -12,6 +12,6 @@ app.use(express.urlencoded({ extended: false }));
 app.use('/public', express.static(__dirname + '/public'));
 app.use("/api", require("./middleware/api"));
 
-app.listen(8080,() => {
-    console.log("server running port 8080")
+app.listen(9000,() => {
+    console.log("server running port 9000")
 });

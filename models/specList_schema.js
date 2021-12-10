@@ -2,14 +2,14 @@ const mongoose = require("mongoose");
 
 const specList_schema = mongoose.Schema ({
     title: String,
-    username: String,
+    userID: String,
     spec: {
         CPU: String,
         GPU: String,
         MAINBOARD: String,
         MEMORY: String,
         STORAGE: String,
-        PSU: String,
+        POWERSUPPLY: String,
         COOLER: String,
         CASE: String
     }

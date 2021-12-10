@@ -1,17 +1,21 @@
 const { Router } = require("express");
+const jwt = require("jsonwebtoken");
 const List = require("../models/specList_schema")
 
 exports.addSpecList = async (req, res) => {
+    const { token } = req.body
+    const userID = jwt.verify(token, process.env.TOKEN_SECRET)
+
     const spec = new List({
         title: req.body.title,
-        username: req.body.username,
+        userID: userID,
         spec: {
             CPU: req.body.spec.cpu,
             GPU: req.body.spec.gpu,
             MAINBOARD: req.body.spec.mainboard,
             MEMORY: req.body.spec.memory,
             STORAGE: req.body.spec.storage,
-            PSU: req.body.spec.psu,
+            POWERSUPPLY: req.body.spec.psu,
             COOLER: req.body.spec.cooler,
             CASE: req.body.spec.case
         }
