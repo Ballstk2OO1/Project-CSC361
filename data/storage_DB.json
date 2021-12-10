@@ -1,13 +1,13 @@
 [
     {
         "title": "Western Digital Black SN750 1TB NVMe",
-        "image": "",
+        "image": "http://localhost:8080/public/WD_Black_SN750.png",
         "category": "Storage",
-        "price": "",
+        "price": "3,990 baht",
         "brand": "Western Digital",
         "model": "Black SN750 1TB NVMe",
-        "specifacation": {
-            "specifacation": {
+        "specification": {
+            "specification": {
                 "capacity": "1 TB",
                 "interface": "M.2",
                 "read_speed": "3470 MB/s",
@@ -18,13 +18,13 @@
     },
     {
         "title": "Western Digital Blue 1TB 3D NAND",
-        "image": "",
+        "image": "http://localhost:8080/public/WD_Blue_3D_NAND.png",
         "category": "Storage",
-        "price": "",
+        "price": "2,990 baht",
         "brand": "Western Digital",
         "model": "Blue 1TB 3D NAND",
-        "specifacation": {
-            "specifacation": {
+        "specification": {
+            "specification": {
                 "capacity": "1 TB",
                 "interface": "SATA III",
                 "read_speed": "560 MB/s",

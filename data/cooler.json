@@ -1,9 +1,9 @@
 [
     {
         "title": "Corsair H100i RGB Elite Capellix",
-        "image": "",
+        "image": "5,790 baht",
         "category": "Cooler",
-        "price": "",
+        "price": "http://localhost:8080/public/corsair-H100i-RGB-Elite-Capellix.png",
         "brand": "Corsair",
         "series": "H",
         "model": "H100i RGB Elite Capellix",
@@ -19,9 +19,9 @@
     },
     {
         "title": "Corsair H115i RGB Elite Capellix",
-        "image": "",
+        "image": "http://localhost:8080/public/corsair-H115i-RGB-Elite-Capellix.png",
         "category": "Cooler",
-        "price": "",
+        "price": "6,290 baht",
         "brand": "Corsair",
         "series": "H",
         "model": "H115i RGB Elite Capellix",

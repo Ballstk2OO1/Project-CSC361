@@ -1,9 +1,9 @@
 [
     {
         "title": "Corsair Vengeance RGB Pro DDR4 16GB (8GBx2) 3200",
-        "image": "",
+        "image": "http://localhost:8080/public/corsair-Vengeance-Pro-RGB.png",
         "category": "Memory",
-        "price": "",
+        "price": "3,590 baht",
         "brand": "Corsair",
         "model": "Vengeance RGB Pro DDR4 16GB (8GBx2) 3200",
         "specification": {
@@ -18,9 +18,9 @@
     },
     {
         "title": "Corsair Vengeance RGB RS DDR4 16GB (8GBx2) 3200",
-        "image": "",
+        "image": "http://localhost:8080/public/corsair-Vengeance-RGB-RS.png",
         "category": "Memory",
-        "price": "",
+        "price": "3,290 baht",
         "brand": "Corsair",
         "model": "Vengeance RGB RS DDR4 16GB (8GBx2) 3200",
         "specification": {
@@ -35,9 +35,9 @@
     },
     {
         "title": "Corsair Vengeance RGB RT DDR4 16GB (8GBx2) 3200",
-        "image": "",
+        "image": "http://localhost:8080/public/corsair-Vengeance-RGB-RT.png",
         "category": "Memory",
-        "price": "",
+        "price": "3,990 baht",
         "brand": "Corsair",
         "model": "Vengeance RGB RT DDR4 16GB (8GBx2) 3200 White",
         "specification": {

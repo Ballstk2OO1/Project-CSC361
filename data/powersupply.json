@@ -1,9 +1,9 @@
 [
     {
         "title": "Corsair CV650",
-        "image": "",
+        "image": "http://localhost:8080/public/corsair-cv650.png",
         "category": "PowerSupply",
-        "price": "",
+        "price": "1,990 baht",
         "brand": "Corsair",
         "series": "CV",
         "model": "CV650",
@@ -27,9 +27,9 @@
     },
     {
         "title": "Corsair RM650m gold",
-        "image": "",
+        "image": "http://localhost:8080/public/corsair-rm650m.png",
         "category": "PowerSupply",
-        "price": "",
+        "price": "3,490 baht",
         "brand": "Corsair",
         "series": "RM",
         "model": "RM650 Gold",

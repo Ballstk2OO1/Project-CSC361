@@ -9,6 +9,7 @@ app.use(cors(corsOption));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
+app.use('/public', express.static(__dirname + '/public'));
 app.use("/api", require("./middleware/api"));
 
 app.listen(8080,() => {

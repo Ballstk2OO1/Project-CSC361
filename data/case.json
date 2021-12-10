@@ -1,9 +1,9 @@
 [
     {
         "title": "Corsair iCUE 4000X RGB",
-        "image": "",
+        "image": "http://localhost:8080/public/corsair-4000X.png",
         "category": "Case",
-        "price": "",
+        "price": "4,190 baht",
         "brand": "Corsair",
         "model": "iCUE 4000X RGB",
         "specification": {
@@ -26,9 +26,9 @@
     },
     {
         "title": "CORSAIR 4000D Tempered Glass",
-        "image": "",
+        "image": "http://localhost:8080/public/corsair-4000D.png",
         "category": "Case",
-        "price": "",
+        "price": "2,690 baht",
         "brand": "Corsair",
         "model": "4000D Tempered Glass",
         "specification": {

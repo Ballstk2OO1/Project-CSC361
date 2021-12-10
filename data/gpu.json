@@ -1,24 +1,24 @@
 [
     {
-        "title": "Asus RTX 3070 Dual OC LHR",
-        "image": "",
+        "title": "Asus RTX 3060 Dual",
+        "image": "http://localhost:8080/public/Asus-RTX3060-Dual.png",
         "category": "GPU",
-        "price": "",
+        "price": "23,900 baht",
         "brand": "Asus",
         "series": "GeForce RTX 30 Series",
-        "model": "RTX 3070 Dual OC LHR",
+        "model": "RTX 3060 Dual",
         "specification": {
             "chipset": {
                 "GPU_chipset": "NVIDIA",
-                "GPU_name": "GA104",
-                "GPU_clock": "1755 MHz",
-                "shader_unit": "5888",
+                "GPU_name": "GA106",
+                "GPU_clock": "1867 MHz",
+                "shader_unit": "3584",
                 "technology": "8 nm"
             },
             "memory": {
-                "memory_clock": "16000 MHz",
-                "memory_size": "8 GB",
-                "memory_interface": "256 bit",
+                "memory_clock": "15000 MHz",
+                "memory_size": "12 GB",
+                "memory_interface": "192 bit",
                 "memory_type": "GDDR6"
             },
             "graphic_feature": {
@@ -28,20 +28,20 @@
                 "shader_model": "6.5"
             },
             "port_connector": {
-                "HDMI_port": "2",
+                "HDMI_port": "1",
                 "display_port": "3x Display port"
             },
             "other_detail": {
-                "power_connector": "2x 8 Pin",
-                "power_requirement": "750w"
+                "power_connector": "8 Pin",
+                "power_requirement": "650w"
             }
         }
     },
     {
-        "title": "Asus RTX 3070 Dual OC LHR",
-        "image": "",
+        "title": "Asus Radeon RX 6700 XT Dual LHR",
+        "image": "http://localhost:8080/public/Asus-Radeon-RX6700XT-Dual.png",
         "category": "GPU",
-        "price": "",
+        "price": "38,900 baht",
         "brand": "Asus",
         "series": "Radeon RX 6000 Series",
         "model": "Radeon RX 6700 XT Dual LHR",
@@ -72,82 +72,6 @@
             "other_detail": {
                 "power_connector": "8 Pin + 6 Pin",
                 "power_requirement": "650w"
-            }
-        }
-    },
-    {
-        "title": "Asus Dual RTX 2070 mini OC",
-        "image": "",
-        "category": "GPU",
-        "price": "",
-        "brand": "Asus",
-        "series": "GeForce RTX 30 Series",
-        "model": "RTX 3070 Dual OC LHR",
-        "specification": {
-            "chipset": {
-                "GPU_chipset": "NVIDIA",
-                "GPU_name": "TU106",
-                "GPU_clock": "1680 MHz",
-                "shader_unit": "2304",
-                "technology": "12 nm"
-            },
-            "memory": {
-                "memory_clock": "14000 MHz",
-                "memory_size": "8 GB",
-                "memory_interface": "256 bit",
-                "memory_type": "GDDR6"
-            },
-            "graphic_feature": {
-                "bus_interface": "PCI-ex 3.0 16x",
-                "multi_GPU_support": "N/A",
-                "directX": "12",
-                "shader_model": "6.5"
-            },
-            "port_connector": {
-                "HDMI_port": "1",
-                "display_port": "1x Display port"
-            },
-            "other_detail": {
-                "power_connector": "8 Pin",
-                "power_requirement": "550w"
-            }
-        }
-    },
-    {
-        "title": "Asus Dual RX 5700 OC Evo",
-        "image": "",
-        "category": "GPU",
-        "price": "",
-        "brand": "Asus",
-        "series": "Radeon RX 5700 Series",
-        "model": "Dual RX 5700 OC Evo",
-        "specification": {
-            "chipset": {
-                "GPU_chipset": "AMD",
-                "GPU_name": "Navi 10",
-                "GPU_clock": "1749 MHz",
-                "shader_unit": "2304",
-                "technology": "7 nm"
-            },
-            "memory": {
-                "memory_clock": "14000 MHz",
-                "memory_size": "8 GB",
-                "memory_interface": "256 bit",
-                "memory_type": "GDDR6"
-            },
-            "graphic_feature": {
-                "bus_interface": "PCI-ex 4.0 16x",
-                "multi_GPU_support": "Crossfire Ready",
-                "directX": "12",
-                "shader_model": "6.4"
-            },
-            "port_connector": {
-                "HDMI_port": "1",
-                "display_port": "3x Display port"
-            },
-            "other_detail": {
-                "power_connector": "8 Pin + 6 Pin",
-                "power_requirement": "600w"
             }
         }
     }

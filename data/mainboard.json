@@ -1,9 +1,9 @@
 [
     {
         "title": "Asus ROG Strix Z690-I gaming WIFI",
-        "image": "",
+        "image": "http://localhost:8080/public/ROG-Strix-Z690-I.png",
         "category": "Mainboard",
-        "price": "",
+        "price": "16,900 baht",
         "brand": "Asus",
         "chipset": "Intel Z690",
         "model": "ROG Strix Z690-I gaming WIFI",
@@ -47,9 +47,9 @@
     },
     {
         "title": "Asus ROG Strix Z690-E gaming WIFI",
-        "image": "",
+        "image": "http://localhost:8080/public/ROG-Strix-Z690-E.png",
         "category": "Mainboard",
-        "price": "",
+        "price": "18,900 baht",
         "brand": "Asus",
         "chipset": "Intel Z690",
         "model": "ROG Strix Z690-E gaming WIFI",
@@ -93,9 +93,9 @@
     },
     {
         "title": "Asus ROG Strix Z590-I gaming WIFI",
-        "image": "",
+        "image": "http://localhost:8080/public/ROG-Strix-Z590-I.png",
         "category": "Mainboard",
-        "price": "",
+        "price": "11,500 baht",
         "brand": "Asus",
         "chipset": "Intel Z690",
         "model": "ROG Strix Z590-I gaming WIFI",
@@ -139,9 +139,9 @@
     },
     {
         "title": "Asus ROG Strix Z590-E gaming WIFI",
-        "image": "",
+        "image": "http://localhost:8080/public/ROG-Strix-Z590-E.png",
         "category": "Mainboard",
-        "price": "",
+        "price": "13,900 baht",
         "brand": "Asus",
         "chipset": "Intel Z690",
         "model": "ROG Strix Z590-E gaming WIFI",

@@ -8,7 +8,7 @@ router.post("/mainboard", insertData.mainboard)
 router.post("/memory", insertData.memory)
 router.post("/storage", insertData.storage)
 router.post("/cooler", insertData.cooler)
-router.post("/psu", insertData.psu)
+router.post("/powersupply", insertData.psu)
 router.post("/case", insertData.case)
 
 module.exports = router

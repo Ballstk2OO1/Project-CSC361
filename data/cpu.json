@@ -1,9 +1,9 @@
 [
     {
         "title": "Intel core i5-12600K",
-        "image": "",
+        "image": "http://localhost:8080/public/i5-12600k.png",
         "category": "CPU",
-        "price": "",
+        "price": "11,800 baht",
         "brand": "Intel",
         "series": "core i5",
         "model": "core i5-12600K",
@@ -23,9 +23,9 @@
     },
     {
         "title": "Intel core i5-11600K",
-        "image": "",
+        "image": "http://localhost:8080/public/i5-11600k.png",
         "category": "CPU",
-        "price": "",
+        "price": "9,950 baht",
         "brand": "Intel",
         "series": "core i5",
         "model": "core i5-11600K",
@@ -45,9 +45,9 @@
     },
     {
         "title": "Intel core i5-10600K",
-        "image": "",
+        "image": "http://localhost:8080/public/i5-10600k.png",
         "category": "CPU",
-        "price": "",
+        "price": "8,500 baht",
         "brand": "Intel",
         "series": "core i5",
         "model": "core i5-10600K",
