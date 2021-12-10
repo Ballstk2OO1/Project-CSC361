@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Compare from '../views/Compare.vue'
 import Login from '../views/Login.vue'
+import Register from '../views/Register.vue'
+import userinfo from '../views/userinfo.vue'
 
 Vue.use(VueRouter)
 
@@ -23,13 +25,31 @@ const routes = [
   {
     path: '/compare',
     name: 'Compare',
-    component: Compare
+    component: Compare,
+    // beforeEnter: (to, from, next) => {
+    //   if (this.$store.state.isLogged == false) {
+    //     next(false);
+    //   } else {
+    //     next();
+    //   }
+    // }
   },
   {
     path: '/login',
     name: 'Login',
     component: Login
+  },
+  {
+    path: '/register',
+    name: 'Register',
+    component: Register
+  },
+  {
+    path: '/userinfo',
+    name: 'userinfo',
+    component: userinfo
   }
+  
 ]
 
 const router = new VueRouter({
